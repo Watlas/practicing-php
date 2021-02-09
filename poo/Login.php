@@ -7,10 +7,17 @@ class Login
     private $email;
     private $senha;
 
+    public function __construct(){
+
+    }
+
+
     public function getEmail()
     {
         return $this->email;
     }
+
+
 
     public function setEmail($email): void
     {
